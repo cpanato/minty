@@ -32,4 +32,4 @@ jobs:
 
           faas-cli list --token "$JWT"
           
-          faas-cli store deploy figlet --name actors: figlet-cpanato --token="$JWT"
+          faas-cli store deploy figlet --name figlet-cpanato --token="$JWT"
